@@ -1,0 +1,62 @@
+/* Felles */
+body {
+    margin: 0;
+    overflow: hidden;
+}
+.bakgrunn {
+    width: 100%;
+    height: 100vh;
+    background-color: #888888;
+    text-align: center;
+}
+
+/* welcome */
+h1 {
+    margin: 0;
+    font-size: 80px;
+    color: white;
+    font-family: Bevan;
+    line-height: 150px;
+}
+.container {
+    background-color: deepskyblue;
+    width: 50%;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    margin-top: -75px;
+    left: 25%;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px transparent;
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+.container:hover, .container:focus, .container:active {
+    box-shadow: 0 30px 30px -10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.meny {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    font-family: "arial";
+    font-weight: bold;
+    line-height: 50px;
+    transition: .3s ease-in-out;
+}
+.meny a {
+    height: 100%;
+    flex: 1;
+    background-color: deepskyblue;
+    text-decoration: none;
+    color: white;
+}
+.knapp:hover {
+    background-color: white;
+    color: deepskyblue;
+}

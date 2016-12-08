@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href="https://fonts.googleapis.com/css?family=Bevan" rel="stylesheet">
+    <meta charset="iso-8859-1">
+    <title>Fysikk</title>
+    <style>
+        h1 {
+            font-size: 88px;
+        }
+        .container {
+            animation-name: velkommenUt;
+            animation-duration: 1s;
+            animation-iteration-count: 1;
+            animation-fill-mode: forwards;
+
+            box-shadow: 0 30px 30px -10px rgba(0, 0, 0, 0.5);
+            width: 55%;
+            height: 165px;
+            margin-top: -82.5px;
+            left: 22.5%;
+        }
+        .meny {
+            animation-name: menyInn;
+            animation-duration: 1s;
+            animation-delay: 1s;
+            animation-iteration-count: 1;
+            animation-fill-mode: backwards;
+        }
+        @keyframes velkommenUt {
+            0% {
+                transform: translateY(0);
+            }
+            100% {
+                transform: translateY(-500px);
+            }
+        }
+        @keyframes menyInn {
+            0% {
+                transform: translateY(-50px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+<div class="bakgrunn">
+    <div class="meny">
+        <a href=""><div class="knapp"> HR-diagram </div></a>
+        <a href=""><div class="knapp"> HR-diagram </div></a>
+        <a href=""><div class="knapp"> HR-diagram </div></a>
+        <a href=""><div class="knapp"> HR-diagram </div></a>
+    </div>
+
+    <div class="container">
+        <h1>
+            Velkommen
+        </h1>
+    </div>
+
+</div>
+</body>
+</html>
