@@ -60,3 +60,7 @@ h1 {
     background-color: white;
     color: deepskyblue;
 }
+img {
+  width: auto;
+  height: 100vh;
+}
