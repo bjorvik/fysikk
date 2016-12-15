@@ -69,7 +69,7 @@ h1 {
 }
 img {
   width: auto;
-  height: 100vh;
+  height: 95vh;
   animation-name: bildeInn;
   animation-duration: 1s;
   animation-iteration-count: 1;
